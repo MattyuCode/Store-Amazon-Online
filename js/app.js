@@ -1,4 +1,7 @@
+// https://codingnepalweb.com/demos/weather-app-in-javascript/
 const input = document.querySelector('.ipt'),
+    listas = document.querySelector('.matt'),
+    templates = document.querySelector('#template').content,
     formulario = document.querySelector('.form');
 let apiKey;
 
@@ -8,17 +11,15 @@ formulario.addEventListener('submit', e => {
 
     if (inputValue === "") {
         input.classList.add("is-invalid");
-        // toastr.error('Intenta llenar el campo vacio', 'Error')
-
-        toastr.error('Intenta llenar el campo vacio', 'Error',
-          { "positionClass" : "toast-bottom-right"}
-      );
+        toastr.error('Intenta llenar el campo vacio', 'Error', {
+            "positionClass": "toast-bottom-right"
+        });
         return;
     }
     input.classList.remove("is-invalid");
-    
-    console.log(inputValue);
-    // requestApi(inputValue);
+
+    // console.log(inputValue);
+    requestApi(inputValue);
 });
 
 
@@ -29,6 +30,7 @@ formulario.addEventListener('submit', e => {
     apiKey = 'b01b0a3ad496924a55a7d78d29abf0fb';
 }
 
+let resultadosEcontrados, jja;
 const requestApi = async (products) => {
     try {
 
@@ -63,27 +65,36 @@ const requestApi = async (products) => {
         const response = await fetch(`https://amazon-price1.p.rapidapi.com/search?marketplace=ES&keywords=${products}`, options)
         /*amd%20ryzen%209 */
         const data = await response.json();
-        console.log(data);
+        // console.log(data);
 
+        resultadosEcontrados = data.length
+        jja = `${resultadosEcontrados} resultados para ${products}`
+        console.log(jja);
 
-
-
-
-
-        // mostrar(data);
-        // document.querySelector('.api').innerHTML = data;
+        mostrarHTML(data);
     } catch (error) {
         console.log(error);
     }
 }
 
-// function mostrar(response) {
-//     console.log("entra en la fucion");
-//     response.results.forEach((item, index) => {
-//         console.log(index, item);
-//         console.log("Entro el foreach");
+let tipoDeCambioQuetzalGT;
+const mostrarHTML = (data) => {
+    listas.textContent = "";
+    const fragment = document.createDocumentFragment();
+    // tipoDeCambioQuetzalGT = 
 
-//     });
-// }
+    data.forEach(item => {
+        console.log(item);
 
-// const url = 'https://rickandmortyapi.com/api/character'
+        const clone = templates.cloneNode(true);
+        clone.querySelector('.card-img-top').setAttribute('src', item.imageUrl);
+        clone.querySelector('.card-title').textContent = item.title;
+        clone.querySelector('.lista').textContent = item.listPrice;
+        clone.querySelector('.precioOrig').textContent = item.price;
+        // clone.querySelector('.lista').textContent = Number() * 7.68;
+        clone.querySelector('.totals').textContent = item.totalReviews;
+
+        fragment.appendChild(clone);
+    });
+    listas.appendChild(fragment);
+}

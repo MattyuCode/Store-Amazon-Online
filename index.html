@@ -19,7 +19,7 @@
 
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-        <div class="container">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#"><strong>Store-<span>Online</span> </strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,24 +33,34 @@
                     <li class="nav-item">
                         <a class="nav-link" href="buscar.html">Buscar productos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre nosotros</a>
-                    </li>
+
+                    <form class="form-inline my-2 my-lg-0 ml-auto form">
+                        <input class="form-control ipt" type="search" placeholder="Buscar un producto"
+                            aria-label="Search">
+                        <button class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3" type="submit"><i
+                                class="fas fa-search"></i></button>
+                    </form>
+                </ul>
+                <ul class="navbar-nav ml-auto nav-flex-icons">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Dropdown
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-user"></i>
                         </a>
-                        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+                        <div class="dropdown-menu dropdown-menu-right dropdown-default"
+                            aria-labelledby="navbarDropdownMenuLink-333">
                             <a class="dropdown-item" href="#">Action</a>
                             <a class="dropdown-item" href="#">Another action</a>
                             <a class="dropdown-item" href="#">Something else here</a>
                         </div>
                     </li>
+                    <li class="nav-item avatar">
+                        <a class="nav-link p-0" href="#">
+                            <img src="https://cdn.icon-icons.com/icons2/1195/PNG/512/1490889698-amazon_82521.png"
+                                class="rounded-circle z-depth-0" alt="avatar image" height="35">
+                        </a>
+                    </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0 ml-auto form">
-                    <input class="form-control ipt" type="search" placeholder="Buscar un producto" aria-label="Search">
-                    <button class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3" type="submit">Buscar</button>
-                </form>
             </div>
         </div>
     </nav>
@@ -86,11 +96,10 @@
     <main class="text-center py-5">
         <div class="container">
             <div class="row matt">
-
             </div>
         </div>
 
-<!-- 
+        <!-- 
         <div class="container">
             <div class="row">
                 <form action="#" class="form">
@@ -115,6 +124,7 @@
 
     <template id="template">
         <div class="col-lg-4 col-md-6 col-12  mb-4 animated fadeIn">
+          
             <div class="card">
                 <div class="view overlay">
                     <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.webp"
@@ -125,9 +135,18 @@
                 </div>
                 <div class="card-body">
                     <h4 class="card-title">Card title</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the
-                        bulk of the
-                        card's content.</p> <button type="button" class="btn btn-light-blue btn-md">Read
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="card-text ">Lista de precio <span class="lista"></span></h3>
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="card-text ">Precio Original <span class="precioOrig"></span></h3>
+                        </div>
+                    </div>
+
+                    <h1>Total: <span class="totals"></span></h1>
+                    <button type="button" class="btn btn-light-blue btn-md">Read
                         more</button>
                 </div>
             </div>

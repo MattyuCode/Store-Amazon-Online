@@ -8,14 +8,30 @@
 }
 
 body {
-    background: #45b0fc;
-    background: linear-gradient(to right, hsla(199, 63%, 34%, 0.438), hsla(199, 84%, 24%, 0.26)), url(../assets/img/gradient.png);
+    background: #232F3E;
+    /* background: #45b0fc; */
+    /* background: linear-gradient(to right, hsla(199, 63%, 34%, 0.438), hsla(199, 84%, 24%, 0.26)), url(../assets/img/gradient.png); */
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+body::-webkit-scrollbar {
+    background: #333;
+    height: 6px;
+    width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px #FFF, inset -5px -5px 15px #dbe0e7;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
 
 .view {
     background: linear-gradient(to right, hsla(199, 63%, 34%, 0.788), hsla(199, 84%, 24%, 0.473)),
@@ -78,11 +94,9 @@ h3 {
 }
 
 
-
-
-
-
-
+.navbar .ipt{
+    width: 700px;
+}
 
 
 .navbar {
@@ -104,4 +118,8 @@ body,
 header,
 .view {
     height: 100%;
+}
+
+.card{
+    border-radius: 10px;
 }
