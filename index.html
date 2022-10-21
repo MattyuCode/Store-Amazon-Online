@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#"><strong>Store-<span>Online</span> </strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <i class="fas fa-home"></i> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="buscar.html">Buscar productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Dropdown
+                        </a>
+                        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 ml-auto form">
+                    <input class="form-control ipt" type="search" placeholder="Buscar un producto" aria-label="Search">
+                    <button class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <div class="view intro-2">
+        <div class="full-bg-img">
+            <div class="mask rgba-purple-light flex-center">
+                <div class="container text-center white-text wow fadeInUp">
+                    <h2>This Navbar is fixed and transparent</h2>
+                    <br>
+                    <h5>It will always stay visible on the top, even when you scroll down</h5>
+                    <p>Navbar's background will switch from transparent to solid color while scrolling down</p>
+                    <br>
+                    <p>Full page intro with background image will be always displayed in full screen mode,
+                        regardless of
+                        device </p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="home">
+        <div class="container mt-5 text-center white-text wow fadeInUp">
+            <br>
+            <h1>Bienvenidos a la página en línea</h1>
+            <br>
+            <h2 class="mt-2 mb-4">Aquí encontrarás todo lo que buscas</h2>
+            <h3>Cambiamos tu mundo con un solo click</h3>
+        </div>
+    </div>
+
+
+    <main class="text-center py-5">
+        <div class="container">
+            <div class="row matt">
+
+            </div>
+        </div>
+
+<!-- 
+        <div class="container">
+            <div class="row">
+                <form action="#" class="form">
+                    <div class="row ">
+                        <div class="col-md-8">
+                            <input type="text" class="form-control  ipt" placeholder="Buscar un producto en AMAZON">
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-info search mb-3">Buscar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <p class="api"></p>
+        </div> -->
+    </main>
+
+
+
+
+
+
+    <template id="template">
+        <div class="col-lg-4 col-md-6 col-12  mb-4 animated fadeIn">
+            <div class="card">
+                <div class="view overlay">
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.webp"
+                        alt="Card image cap">
+                    <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the
+                        bulk of the
+                        card's content.</p> <button type="button" class="btn btn-light-blue btn-md">Read
+                        more</button>
+                </div>
+            </div>
+        </div>
+    </template>
+
+
+    <script src="js/app.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+    </script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
+</body>
+
+</html>
