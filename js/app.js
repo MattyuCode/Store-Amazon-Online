@@ -24,7 +24,6 @@ formulario.addEventListener('submit', e => {
     requestApi(inputValue);
 });
 
-
 {
     apiKey = 'b01b0a3ad496924a55a7d78d29abf0fb';
 }
@@ -74,13 +73,12 @@ const requestApi = async (products) => {
         toastr.info(`${resultadosEcontrados} resultados para ${products}`, "Aviso", {
             "positionClass": "toast-bottom-right",
         });
-
         mostrarHTML(data);
     } catch (error) {
-        if (error instanceof SyntaxError) {
-            console.log("No hay señal", error.message);
-        }
+        console.log(error);
     }
+
+
 }
 
 const mostrarHTML = (data) => {
@@ -90,13 +88,14 @@ const mostrarHTML = (data) => {
         console.log(item);
         quetzal = (parseInt(item.price) * 7.64);
         contres = quetzal.toFixed(3);
+
         const clone = templates.cloneNode(true);
         clone.querySelector('.card-img-top').setAttribute('src', item.imageUrl);
         clone.querySelector('.card-title').textContent = item.title;
         clone.querySelector('.lista').textContent = item.listPrice;
         clone.querySelector('.precioOrig').textContent = item.price;
         // clone.querySelector('.totals').textContent = item.totalReviews;
-        clone.querySelector('.totals').textContent = contres;
+        clone.querySelector('.totals').textContent = isNaN(contres) ? " 00.00" : contres;
         clone.querySelector('.btn-info').setAttribute('href', item.detailPageURL);
         fragment.appendChild(clone);
     });
