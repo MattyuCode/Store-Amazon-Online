@@ -4,7 +4,8 @@ const input = document.querySelector('.ipt'),
     listas = document.querySelector('.matt'),
     templates = document.querySelector('#template').content,
     formulario = document.querySelector('.form');
-let apiKey;
+
+let resultadosEcontrados, jja, apiKey, tipoDeCambioQuetzalGT;
 
 formulario.addEventListener('submit', e => {
     e.preventDefault();
@@ -28,10 +29,8 @@ formulario.addEventListener('submit', e => {
     apiKey = 'b01b0a3ad496924a55a7d78d29abf0fb';
 }
 
-let resultadosEcontrados, jja;
 const requestApi = async (products) => {
     try {
-
         // Amazon Products -----------------------
         // const options = {
         //     method: 'GET',
@@ -48,9 +47,6 @@ const requestApi = async (products) => {
         // const data = await response.json();
         // console.log(data);
 
-
-
-
         /*--------------------Amazon Price--------------------- */
         const options = {
             method: 'GET',
@@ -60,38 +56,48 @@ const requestApi = async (products) => {
             }
         };
 
-        const response = await fetch(`https://amazon-price1.p.rapidapi.com/search?marketplace=ES&keywords=${products}`, options)
+        const response = await fetch(`https://amazon-price1.p.rapidapi.com/search?marketplace=ES&keywords=${products}`, options);
         /*amd%20ryzen%209 */
+
+        if (response.status === 401) {
+            toastr.error(`Error al cargar, el servidor respondió con un estado de ${response.status}`, `Error: ${response.status}`, {
+                "positionClass": "toast-bottom-full-width"
+            });
+            return;
+            //  throw new Error(`Error! status: ${response.status}`);
+        }
+
         const data = await response.json();
         // console.log(data);
 
         resultadosEcontrados = data.length
-        jja = `${resultadosEcontrados} resultados para ${products}`
-        console.log(jja);
+        toastr.info(`${resultadosEcontrados} resultados para ${products}`, "Aviso", {
+            "positionClass": "toast-bottom-right",
+        });
 
         mostrarHTML(data);
     } catch (error) {
-        console.log(error);
+        if (error instanceof SyntaxError) {
+            console.log("No hay señal", error.message);
+        }
     }
 }
 
-let tipoDeCambioQuetzalGT;
 const mostrarHTML = (data) => {
     listas.textContent = "";
     const fragment = document.createDocumentFragment();
-    // tipoDeCambioQuetzalGT = 
-
     data.forEach(item => {
         console.log(item);
-
+        quetzal = (parseInt(item.price) * 7.64);
+        contres = quetzal.toFixed(3);
         const clone = templates.cloneNode(true);
         clone.querySelector('.card-img-top').setAttribute('src', item.imageUrl);
         clone.querySelector('.card-title').textContent = item.title;
         clone.querySelector('.lista').textContent = item.listPrice;
         clone.querySelector('.precioOrig').textContent = item.price;
-        // clone.querySelector('.lista').textContent = Number() * 7.68;
-        clone.querySelector('.totals').textContent = item.totalReviews;
-
+        // clone.querySelector('.totals').textContent = item.totalReviews;
+        clone.querySelector('.totals').textContent = contres;
+        clone.querySelector('.btn-info').setAttribute('href', item.detailPageURL);
         fragment.appendChild(clone);
     });
     listas.appendChild(fragment);

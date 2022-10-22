@@ -8,14 +8,15 @@
 }
 
 body {
-    background: #232F3E;
+    /* background: #232F3E; */
     /* background: #45b0fc; */
-    /* background: linear-gradient(to right, hsla(199, 63%, 34%, 0.438), hsla(199, 84%, 24%, 0.26)), url(../assets/img/gradient.png); */
+    background: linear-gradient(to right, hsla(199, 63%, 34%, 0.438), hsla(199, 84%, 24%, 0.26)), url(../assets/img/gradient.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 body::-webkit-scrollbar {
     background: #333;
@@ -61,8 +62,33 @@ body::-webkit-scrollbar-thumb:hover {
 
 .navbar .navbar-brand span {
     color: #ffbb33;
-
 }
+
+.navbar .ipt {
+    width: 700px;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #e49e13
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
 
 .home {
     background: linear-gradient(to right, hsla(199, 63%, 34%, 0.438), hsla(199, 84%, 24%, 0.438)),
@@ -89,37 +115,14 @@ body::-webkit-scrollbar-thumb:hover {
 .home h2,
 h3 {
     font-weight: 500;
-    /* color: #ffbb33;
-    font-size: 45px; */
 }
 
-
-.navbar .ipt{
-    width: 700px;
-}
-
-
-.navbar {
-    background-color: transparent;
-}
-
-.top-nav-collapse {
-    background-color: #e49e13
-}
-
-@media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: #4285F4;
-    }
-}
-
-html,
-body,
-header,
-.view {
-    height: 100%;
-}
-
-.card{
+.card {
     border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 26px 0 rgba(0, 0, 0, .3);
+}
+
+.card .card-img-top:hover {
+    transform: scale(1.1);
 }
