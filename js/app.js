@@ -1,4 +1,5 @@
 // https://codingnepalweb.com/demos/weather-app-in-javascript/
+
 const input = document.querySelector('.ipt'),
     listas = document.querySelector('.matt'),
     templates = document.querySelector('#template').content,
@@ -12,7 +13,7 @@ formulario.addEventListener('submit', e => {
     if (inputValue === "") {
         input.classList.add("is-invalid");
         toastr.error('Intenta llenar el campo vacio', 'Error', {
-            "positionClass": "toast-bottom-right"
+            "positionClass": "toast-top-right"
         });
         return;
     }
@@ -21,9 +22,6 @@ formulario.addEventListener('submit', e => {
     // console.log(inputValue);
     requestApi(inputValue);
 });
-
-
-// surkhet
 
 
 {
