@@ -2,23 +2,24 @@
 
 const input = document.querySelector('.ipt'),
     listas = document.querySelector('.matt'),
+    load = document.querySelector('.spinner-border'),
     templates = document.querySelector('#template').content,
     formulario = document.querySelector('.form');
 
-let resultadosEcontrados, jja, apiKey, tipoDeCambioQuetzalGT;
+let resultadosEcontrados, apiKey;
 
 formulario.addEventListener('submit', e => {
     e.preventDefault();
     inputValue = input.value
-
     if (inputValue === "") {
         input.classList.add("is-invalid");
-        toastr.error('Intenta llenar el campo vacio', 'Error', {
+        toastr.error('Por favor, Ingresa un nombre de producto', 'Error', {
             "positionClass": "toast-top-right"
         });
         return;
     }
     input.classList.remove("is-invalid");
+    load.classList.remove("d-none");
 
     // console.log(inputValue);
     requestApi(inputValue);
@@ -69,6 +70,8 @@ const requestApi = async (products) => {
         const data = await response.json();
         // console.log(data);
 
+
+
         resultadosEcontrados = data.length
         toastr.info(`${resultadosEcontrados} resultados para ${products}`, "Aviso", {
             "positionClass": "toast-bottom-right",
@@ -86,9 +89,9 @@ const mostrarHTML = (data) => {
     const fragment = document.createDocumentFragment();
     data.forEach(item => {
         console.log(item);
-        quetzal = (parseInt(item.price) * 7.64);
-        contres = quetzal.toFixed(3);
-
+        tipoDeCambioQuetzalGT = (parseFloat(item.price) * 7.64);
+        contres = tipoDeCambioQuetzalGT.toFixed(3);
+    
         const clone = templates.cloneNode(true);
         clone.querySelector('.card-img-top').setAttribute('src', item.imageUrl);
         clone.querySelector('.card-title').textContent = item.title;

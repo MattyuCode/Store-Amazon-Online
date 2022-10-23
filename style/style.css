@@ -10,7 +10,7 @@
 body {
     /* background: #232F3E; */
     /* background: #45b0fc; */
-    background: linear-gradient(to right, hsla(199, 63%, 34%, 0.438), hsla(199, 84%, 24%, 0.26)), url(../assets/img/gradient.png);
+    /* background: linear-gradient(to right, hsla(199, 63%, 34%, 0.438), hsla(199, 84%, 24%, 0.26)), url(../assets/img/gradient.png); */
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -124,5 +124,24 @@ h3 {
 }
 
 .card .card-img-top:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+}
+
+.matt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: block;
+    display: none; */
+}
+
+.spinner-border {
+    display: inline-block;
+    width: 8rem;
+    height: 8rem;
+    vertical-align: text-bottom;
+    border: 0.35em solid rgb(17, 128, 255);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    animation: spinner-border .75s linear infinite;
 }
