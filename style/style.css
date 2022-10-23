@@ -120,7 +120,10 @@ h3 {
 .card {
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 8px 26px 0 rgba(0, 0, 0, .3);
+    /* box-shadow: 0 8px 26px 0 rgba(0, 0, 0, .3); */
+}
+.card:hover{
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, .3);
 }
 
 .card .card-img-top:hover {

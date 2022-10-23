@@ -66,32 +66,39 @@ const requestApi = async (products) => {
             return;
             //  throw new Error(`Error! status: ${response.status}`);
         }
-
         const data = await response.json();
-        // console.log(data);
+        // jsonVacio = Object.entries(data).length === 0;
+        // isEmpty = JSON.stringify(data) === '{}';
+        if (JSON.stringify(data) === '{}') {
+            // console.log("Json Vacio");
+            toastr.error(`Producto no encontrado de  "${products.bold()}"`, 'Error', {
+                "positionClass": "toast-top-right"
+            });
+            load.classList.add("d-none");
+            return;
+        }
 
-
-
-        resultadosEcontrados = data.length
-        toastr.info(`${resultadosEcontrados} resultados para ${products}`, "Aviso", {
+        // resultadosEcontrados = data.length
+        resultadosEcontrados = Object.values(data).length;
+        toastr.info("", `${resultadosEcontrados} resultados para  "${products.toUpperCase()}"`, {
             "positionClass": "toast-bottom-right",
         });
         mostrarHTML(data);
+
     } catch (error) {
         console.log(error);
     }
-
-
 }
 
 const mostrarHTML = (data) => {
     listas.textContent = "";
     const fragment = document.createDocumentFragment();
     data.forEach(item => {
+
         console.log(item);
         tipoDeCambioQuetzalGT = (parseFloat(item.price) * 7.64);
         contres = tipoDeCambioQuetzalGT.toFixed(3);
-    
+
         const clone = templates.cloneNode(true);
         clone.querySelector('.card-img-top').setAttribute('src', item.imageUrl);
         clone.querySelector('.card-title').textContent = item.title;
