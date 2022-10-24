@@ -1,0 +1,53 @@
+ [{
+         "idUser": 1,
+         "nombres": "Franklin Kluibert",
+         "apellidos": "Ordoñez Nolasco",
+         "edad": 25,
+         "img": "https://cdn-icons-png.flaticon.com/512/2202/2202112.png",
+         "address": "San Pedro Necta, Guatemala",
+         "email": "fordonezn@miumg.edu.gt",
+         "genero": "M",
+         "telephone": "+502 3293 1505",
+         "fechaNaciminento": "19-05-2001",
+         "casado": false
+     },
+     {
+         "idUser": 2,
+         "nombres": "Victor Emanuel",
+         "apellidos": "Galindo Quiñonez",
+         "edad": 20,
+         "img": "https://cdn-icons-png.flaticon.com/512/4140/4140048.png",
+         "address": "Huehuetenango, Guatemala",
+         "email": "vgalindoq1@miumg.edu.gt",
+         "genero": "M",
+         "telephone": "+502 58874794",
+         "fechaNaciminento": "13-12-2001",
+         "casado": true
+     },
+     {
+         "idUser": 3,
+         "nombres": "Sebastián",
+         "apellidos": "Bartolomé Nicolás",
+         "edad": 22,
+         "img": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+         "address": "San Sebastián Coatan, Huehuetenango",
+         "email": "sbartolomen@miumg.edu.gt",
+         "genero": "M",
+         "telephone": "+502 59932079",
+         "fechaNaciminento": "17-01-2000",
+         "casado": false
+     },
+     {
+         "idUser": 4,
+         "nombres": "Josué Andrés",
+         "apellidos": "López Villatoro",
+         "edad": 24,
+         "img": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+         "address": "Malacatancito, Guatemala",
+         "email": " jlopezv31@miumg.edu.gt",
+         "genero": "M",
+         "telephone": "+502 32165225",
+         "fechaNaciminento": "29-11-1997",
+         "casado": true
+     }
+ ]
