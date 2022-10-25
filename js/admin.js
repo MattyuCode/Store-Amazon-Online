@@ -4,7 +4,7 @@ templateAdmin = document.querySelector('#templateAdmin').content;
 
 const datosAdmin = async () => {
     try {
-        const response = await fetch("data.json");
+        const response = await fetch("json/data.json");
         const data = await response.json();
     //    console.log(data);
        mostrarHTML(data);

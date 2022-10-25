@@ -205,3 +205,34 @@ h3 {
         opacity: 0.5;
     }
 }
+
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    /* left: 0; */
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 20rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: hsl(210deg, 11%, 15%);
+    text-align: left;
+    list-style: none;
+    background-color: hsl(0deg, 0%, 100%);
+    background-clip: padding-box;
+    border: 1px solid hsl(0deg, 0%, 0%, 15%);
+    border-radius: 0.25rem;
+}
+
+.input-group .btn.btn-sm {
+    padding: 0.5rem 10px;
+    font-size: 14px;
+}
+
+.formAsin, .formURL{
+ padding: 0 1rem 0 1rem;
+
+}

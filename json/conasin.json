@@ -1,0 +1,1162 @@
+{
+    "request_info": {
+        "success": true,
+        "credits_used": 17,
+        "credits_used_this_request": 1,
+        "credits_remaining": 483,
+        "credits_reset_at": "2022-11-24T08:06:31.000Z"
+    },
+    "request_parameters": {
+        "type": "product",
+        "amazon_domain": "amazon.com",
+        "asin": "B07KXBMYCW"
+    },
+    "request_metadata": {
+        "created_at": "2022-10-24T14:30:59.341Z",
+        "processed_at": "2022-10-24T14:31:26.083Z",
+        "total_time_taken": 26.74,
+        "amazon_url": "https://www.amazon.com/dp/B07KXBMYCW?th=1&psc=1"
+    },
+    "product": {
+        "title": "Samsung Galaxy A50 A505G 64GB Duos GSM Unlocked Phone w/Triple 25MP Camera - (International Version, No Warranty) - Blue",
+        "search_alias": {
+            "title": "All Departments",
+            "value": "aps"
+        },
+        "keywords": "Samsung,Galaxy,A50,A505G,64GB,Duos,GSM,Unlocked,Phone,w/Triple,25MP,Camera,-,(International,Version,,No,Warranty),-,Blue",
+        "keywords_list": [
+            "Samsung",
+            "Galaxy",
+            "A505G",
+            "64GB",
+            "Duos",
+            "Unlocked",
+            "Phone",
+            "w/Triple",
+            "25MP",
+            "Camera",
+            "(International",
+            "Version",
+            "Warranty)",
+            "Blue"
+        ],
+        "asin": "B07KXBMYCW",
+        "link": "https://www.amazon.com/Samsung-Galaxy-Infinity-U-Display-Warranty/dp/B07KXBMYCW",
+        "brand": "SAMSUNG",
+        "protection_plans": [
+            {
+                "asin": "B07P83ZSLT",
+                "title": "Upfront Pay, 2-Year Protection",
+                "price": {
+                    "symbol": "$",
+                    "value": 99.99,
+                    "currency": "USD",
+                    "raw": "$99.99"
+                }
+            },
+            {
+                "asin": "B088YRXYPQ",
+                "title": "Monthly Mobile Accident Protection Plan",
+                "price": {
+                    "symbol": "$",
+                    "value": 4.99,
+                    "currency": "USD",
+                    "raw": "$4.99/month"
+                }
+            }
+        ],
+        "sell_on_amazon": true,
+        "categories": [
+            {
+                "name": "All Departments"
+            },
+            {
+                "name": "Cell Phones & Accessories",
+                "link": "https://www.amazon.com/cell-phones-service-plans-accessories/b/ref=dp_bc_aui_C_1?ie=UTF8&node=2335752011",
+                "category_id": "2335752011"
+            },
+            {
+                "name": "Cell Phones",
+                "link": "https://www.amazon.com/cell-phone-devices/b/ref=dp_bc_aui_C_2?ie=UTF8&node=7072561011",
+                "category_id": "7072561011"
+            }
+        ],
+        "categories_flat": "All Departments > Cell Phones & Accessories > Cell Phones",
+        "description": "The Samsung galaxy A50 is a complete device that provides for an onscreen fingerprint sensor along with the 6.4-inch (16.21 centimeters) super AMOLED - infinity u cut display, FHD+ resolution (2340 x 1080), 404 ppi with 16m colors and triple camera setup - 16mp (f1.9)+ 5mp (2.2) wide-angle camera + 5mp (2.2) with flash and 25mp (f2.0) front-facing camera.",
+        "sub_title": {
+            "text": "Visit the SAMSUNG Store",
+            "link": "https://www.amazon.com/stores/Samsung%C2%AE/page/F50AFABA-4CDE-4A95-84D0-CA4C61819FEB?ref_=ast_bln"
+        },
+        "rating": 4.1,
+        "rating_breakdown": {
+            "five_star": {
+                "percentage": 50,
+                "count": 1543
+            },
+            "four_star": {
+                "percentage": 27,
+                "count": 833
+            },
+            "three_star": {
+                "percentage": 10,
+                "count": 308
+            },
+            "two_star": {
+                "percentage": 4,
+                "count": 123
+            },
+            "one_star": {
+                "percentage": 8,
+                "count": 246
+            }
+        },
+        "ratings_total": 3087,
+        "main_image": {
+            "link": "https://m.media-amazon.com/images/I/710Z2j5FMtL.jpg"
+        },
+        "images": [
+            {
+                "link": "https://m.media-amazon.com/images/I/710Z2j5FMtL._AC_SL1500_.jpg",
+                "variant": "MAIN"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/61BjDE1KvCL._AC_SL1500_.jpg",
+                "variant": "PT01"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/51xV6o+0+FL._AC_SL1500_.jpg",
+                "variant": "PT02"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/71hihanKlEL._AC_SL1500_.jpg",
+                "variant": "PT03"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/71QZufGJE+L._AC_SL1500_.jpg",
+                "variant": "PT04"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/41MSIwWDlNL._AC_SL1500_.jpg",
+                "variant": "PT05"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/41ydGU1HeWL._AC_SL1499_.jpg",
+                "variant": "PT06"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/71c0n60siAL._AC_SL1500_.jpg",
+                "variant": "PT07"
+            }
+        ],
+        "images_count": 8,
+        "images_flat": "https://m.media-amazon.com/images/I/710Z2j5FMtL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/61BjDE1KvCL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/51xV6o+0+FL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71hihanKlEL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71QZufGJE+L._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/41MSIwWDlNL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/41ydGU1HeWL._AC_SL1499_.jpg,https://m.media-amazon.com/images/I/71c0n60siAL._AC_SL1500_.jpg",
+        "videos_additional": [
+            {
+                "id": "amzn1.vse.video.de3c8ec03c0d40c4aaee580f60fa3061",
+                "product_asin": "B07KXBMYCW",
+                "parent_asin": "B07KXBMYCW",
+                "related_products": "B07YXBTC29, B07RL93F7T, B082QPSB79, B07Y5TS6VP, B07QD67Z1Y",
+                "sponsor_products": "true",
+                "title": "Samsung A50 Updated Review! This Is A Really Great Phone",
+                "profile_image_url": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/influencer-b908c008_aae1eb56-9216-41ee-9ced-28a053772365.png",
+                "profile_link": "/shop/influencer-b908c008",
+                "public_name": "TechDaily ",
+                "creator_type": "Influencer",
+                "vendor_code": "influencer-b908c008:shop",
+                "vendor_name": "TechDaily ",
+                "vendor_tracking_id": "techdailyvids-20",
+                "video_image_id": "91RHgEPgoRL",
+                "video_image_url": "https://m.media-amazon.com/images/I/91RHgEPgoRL._CR0,0,1226,647_SR580,306_.png",
+                "video_image_url_unchanged": "https://m.media-amazon.com/images/I/91RHgEPgoRL.png",
+                "video_image_width": "1226",
+                "video_image_height": "688",
+                "video_image_extension": "png",
+                "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/57ad0b12-88d2-40e1-a822-4d02f8bee57f/default.jobtemplate.hls.m3u8",
+                "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/059c6b02-73bd-4f87-8a8a-87450f731960/videopreview.jobtemplate.mp4.342X192P_20HZ_350KBPS_VER_1_0.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4",
+                "video_mime_type": "application/x-mpegURL",
+                "duration": "7:01",
+                "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/8b65a152-2171-49a1-91b8-7e545619d367.vtt",
+                "type": "videos_for_related_products"
+            },
+            {
+                "id": "amzn1.vse.video.0c828ba64e6d4ee496e350d6f9424d43",
+                "product_asin": "B07KXBMYCW",
+                "parent_asin": "B07KXBMYCW",
+                "related_products": "B09R6FJWWS, B09VCTP7ZL, B09LVY4C6C, B09859RY5M, B093WYVSX2",
+                "sponsor_products": "true",
+                "title": "Samsung Galaxy A53 5G Review: What's the Catch?",
+                "profile_image_url": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/paulandtech_1613454652760_original._CR0,0,4000,4000_._FMjpg_.jpeg",
+                "profile_link": "/shop/paulandtech",
+                "public_name": "Paul Bradford",
+                "creator_type": "Influencer",
+                "vendor_code": "paulandtech:shop",
+                "vendor_name": "Paul Bradford",
+                "vendor_tracking_id": "onamzpaulbrad-20",
+                "video_image_id": "91NQX9PGaSL",
+                "video_image_url": "https://m.media-amazon.com/images/I/91NQX9PGaSL._CR0,0,1920,1013_SR580,306_.jpg",
+                "video_image_url_unchanged": "https://m.media-amazon.com/images/I/91NQX9PGaSL.jpg",
+                "video_image_width": "1920",
+                "video_image_height": "1080",
+                "video_image_extension": "jpg",
+                "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a3f49982-91fc-457f-ad5c-0a224c8c027a/default.jobtemplate.hls.m3u8",
+                "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/eed0d687-3ccf-4b9f-b3b3-78ce7855dd67/videopreview.jobtemplate.mp4.342X192P_20HZ_350KBPS_VER_1_0.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4",
+                "video_mime_type": "application/x-mpegURL",
+                "duration": "7:53",
+                "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/89ca0e77-6105-419d-b985-abbb8ac721e7.vtt",
+                "type": "videos_for_related_products"
+            },
+            {
+                "id": "amzn1.vse.video.a7b771781ac04465a1cf5f1da8215fbd",
+                "product_asin": "B07KXBMYCW",
+                "parent_asin": "B07KXBMYCW",
+                "related_products": "B07VZL1W7K, B07PV68K73, B07QPTGJP5, B07NNVLH1D, B07KWX9GNJ",
+                "sponsor_products": "true",
+                "title": "Samsung Galaxy A50 review",
+                "public_name": "GSM Arena",
+                "vendor_code": "A14TLJA05HGJ0M",
+                "vendor_name": "GSM Arena",
+                "vendor_tracking_id": "gsmarena08-20",
+                "video_image_id": "61dC6aIm1lL",
+                "video_image_url": "https://m.media-amazon.com/images/I/61dC6aIm1lL._CR0,0,1280,675_SR580,306_.jpg",
+                "video_image_url_unchanged": "https://m.media-amazon.com/images/I/61dC6aIm1lL.jpg",
+                "video_image_width": "1280",
+                "video_image_height": "720",
+                "video_image_extension": "jpg",
+                "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/52504458-0d05-422a-9b72-4b0a1af04dbe/default.jobtemplate.hls.m3u8",
+                "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/d2da52ca-ee40-4d26-b4bf-cd9b395145a7/videopreview.jobtemplate.mp4.342X192P_20HZ_350KBPS_VER_1_0.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4",
+                "video_mime_type": "application/x-mpegURL",
+                "duration": "8:12",
+                "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/8b6b69d1-258b-4a08-ac8e-fee19b7ea28c.vtt",
+                "type": "videos_for_related_products"
+            },
+            {
+                "id": "amzn1.vse.video.503accaa1782431baf8330f9efc69688",
+                "product_asin": "B07KXBMYCW",
+                "parent_asin": "B07KXBMYCW",
+                "related_products": "B082YF7WY5, B0832B8HFJ, B082YG1L4B, B083NJRP1L, B0845LYKW2",
+                "sponsor_products": "true",
+                "title": "Samsung Galaxy A51 review",
+                "public_name": "GSM Arena",
+                "vendor_code": "A14TLJA05HGJ0M",
+                "vendor_name": "GSM Arena",
+                "vendor_tracking_id": "gsmarena08-20",
+                "video_image_id": "6193yAJgIHL",
+                "video_image_url": "https://m.media-amazon.com/images/I/6193yAJgIHL._CR0,0,1280,675_SR580,306_.jpg",
+                "video_image_url_unchanged": "https://m.media-amazon.com/images/I/6193yAJgIHL.jpg",
+                "video_image_width": "1280",
+                "video_image_height": "720",
+                "video_image_extension": "jpg",
+                "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/ff98fc08-2448-402c-a093-6a0e13ad0e70/default.jobtemplate.hls.m3u8",
+                "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/1125fabd-1557-48e5-b92f-32044d317356/videopreview.jobtemplate.mp4.342X192P_20HZ_350KBPS_VER_1_0.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4",
+                "video_mime_type": "application/x-mpegURL",
+                "duration": "6:55",
+                "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/e7d9ba2a-6bfd-45c8-9714-9be02391c462.vtt",
+                "type": "videos_for_related_products"
+            },
+            {
+                "id": "amzn1.vse.video.047942b9ad69463dbc6a5e665ff14e1f",
+                "product_asin": "B07KXBMYCW",
+                "parent_asin": "B07KXBMYCW",
+                "related_products": "B09R6FJWWS, B09VCVNK2C, B09XGSGRJK, B09XGYD7HQ, B09MZCNGSD",
+                "sponsor_products": "true",
+                "title": "Galaxy A13 5G vs Galaxy A53 5G - Which Should You Buy?",
+                "profile_image_url": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/fishbeeproductions_1619606947332_original._CR0,0,599,599_._FMjpg_.jpeg",
+                "profile_link": "/shop/fishbeeproductions",
+                "public_name": "FishBee Productions",
+                "creator_type": "Influencer",
+                "vendor_code": "fishbeeproductions:shop",
+                "vendor_name": "FishBee Productions",
+                "vendor_tracking_id": "onamzbryanfis-20",
+                "video_image_id": "61ZXWpyQ7qL",
+                "video_image_url": "https://m.media-amazon.com/images/I/61ZXWpyQ7qL._CR0,0,1280,675_SR580,306_.jpg",
+                "video_image_url_unchanged": "https://m.media-amazon.com/images/I/61ZXWpyQ7qL.jpg",
+                "video_image_width": "1280",
+                "video_image_height": "720",
+                "video_image_extension": "jpg",
+                "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/5629aca4-3f61-423e-8321-43bfe69dbf88/default.jobtemplate.hls.m3u8",
+                "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/2fa414aa-1477-444d-888d-6e0a7c553074/videopreview.jobtemplate.mp4.342X192P_20HZ_350KBPS_VER_1_0.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4",
+                "video_mime_type": "application/x-mpegURL",
+                "duration": "8:29",
+                "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/3910bb10-715b-4095-92b4-be0dda51634c.vtt",
+                "type": "videos_for_related_products"
+            },
+            {
+                "id": "amzn1.vse.video.57405bc020d44dcd987bc284f629a22c",
+                "product_asin": "B07KXBMYCW",
+                "parent_asin": "B07KXBMYCW",
+                "related_products": "B082QPSB79, B082QNLRHQ",
+                "sponsor_products": "true",
+                "title": "Samsung A50 Review",
+                "profile_image_url": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/bullets4bucks_1627341576691_original._CR0,0,500,500_._FMjpg_.png",
+                "profile_link": "/shop/bullets4bucks",
+                "public_name": "Pure Wyoming Productions LLC",
+                "creator_type": "Influencer",
+                "vendor_code": "bullets4bucks:shop",
+                "vendor_name": "Pure Wyoming Productions LLC",
+                "vendor_tracking_id": "bullets4buc0b-20",
+                "video_image_id": "51yvN1UbXgL",
+                "video_image_url": "https://m.media-amazon.com/images/I/51yvN1UbXgL._CR0,0,640,338_SR580,306_.jpg",
+                "video_image_url_unchanged": "https://m.media-amazon.com/images/I/51yvN1UbXgL.jpg",
+                "video_image_width": "640",
+                "video_image_height": "360",
+                "video_image_extension": "jpg",
+                "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/015a8053-1b2a-4e1a-b7c9-e4233f6bc7b0/default.jobtemplate.hls.m3u8",
+                "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/72e8fb3f-d175-4999-be6a-7ff93e88ed92/videopreview.jobtemplate.mp4.342X192P_20HZ_350KBPS_VER_1_0.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4",
+                "video_mime_type": "application/x-mpegURL",
+                "duration": "1:28",
+                "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/fd1a9588-df14-4908-a2b0-044129b7c4a2.vtt",
+                "type": "videos_for_related_products"
+            },
+            {
+                "id": "amzn1.vse.video.0f79e80e24c343b5ae2e02a3afbc067f",
+                "product_asin": "B07KXBMYCW",
+                "parent_asin": "B07KXBMYCW",
+                "related_products": "B09B1NY84G, B08X7Z278W, B08Z6WLVH9, B08Y64KRTF, B09J1LGZRZ",
+                "sponsor_products": "true",
+                "title": "Samsung Galaxy A32 features ",
+                "profile_image_url": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/marcos_1655861256664_original._CR0,0,640,640_._FMjpg_.jpeg",
+                "profile_link": "/shop/marcos",
+                "public_name": "Marcos & Ana Everyday Reviews ",
+                "creator_type": "Influencer",
+                "vendor_code": "marcos:shop",
+                "vendor_name": "Marcos & Ana Everyday Reviews ",
+                "vendor_tracking_id": "onamzmission2-20",
+                "video_image_id": "B1SwnGrLT4L",
+                "video_image_url": "https://m.media-amazon.com/images/I/B1SwnGrLT4L._CR0,0,4032,2127_SR580,306_.jpg",
+                "video_image_url_unchanged": "https://m.media-amazon.com/images/I/B1SwnGrLT4L.jpg",
+                "video_image_width": "4032",
+                "video_image_height": "3024",
+                "video_image_extension": "jpg",
+                "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/02516789-4beb-4509-a884-71e14e53a2a2/default.jobtemplate.hls.m3u8",
+                "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/2139c47d-e094-43e5-bdd7-93364a2a7d0f/videopreview.jobtemplate.mp4.342X192P_20HZ_350KBPS_VER_1_0.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4",
+                "video_mime_type": "application/x-mpegURL",
+                "duration": "0:48",
+                "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/78e74646-1c2f-4824-9b8f-a9d99454fadc.vtt",
+                "type": "videos_for_related_products"
+            },
+            {
+                "id": "amzn1.vse.video.fafe28c72bc145f780b15a2363fd6015",
+                "product_asin": "B07KXBMYCW",
+                "parent_asin": "B07KXBMYCW",
+                "related_products": "B07VZL1W7K, B07QD67Z1Y, B07YXBTC29, B07SM3P4GG, B07VZ2N7GP",
+                "sponsor_products": "true",
+                "title": "Samsung Galaxy A50 - Hands On!",
+                "profile_image_url": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/crazyipodreviewer_1574205212869_original._CR17,0,2316,2316_._FMjpg_.png",
+                "profile_link": "/shop/crazyipodreviewer",
+                "public_name": "Kevin Breeze",
+                "creator_type": "Influencer",
+                "vendor_code": "crazyipodreviewer:shop",
+                "vendor_name": "Kevin Breeze",
+                "vendor_tracking_id": "kevinbreeze0c-20",
+                "video_image_id": "91DX30GI5kL",
+                "video_image_url": "https://m.media-amazon.com/images/I/91DX30GI5kL._CR0,0,1280,675_SR580,306_.png",
+                "video_image_url_unchanged": "https://m.media-amazon.com/images/I/91DX30GI5kL.png",
+                "video_image_width": "1280",
+                "video_image_height": "720",
+                "video_image_extension": "png",
+                "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/bb779194-41a2-41b9-a84a-13ced83dc95d/default.jobtemplate.hls.m3u8",
+                "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/df9d8fcd-3112-4ce9-9be6-bedb16640ff5/videopreview.jobtemplate.mp4.342X192P_20HZ_350KBPS_VER_1_0.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4",
+                "video_mime_type": "application/x-mpegURL",
+                "duration": "3:10",
+                "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/1f0c6a22-c6b8-4fd6-9a17-700776be7212.vtt",
+                "type": "videos_for_related_products"
+            },
+            {
+                "id": "amzn1.vse.video.f7263e3dde194b3aab84259813d05767",
+                "product_asin": "B07KXBMYCW",
+                "parent_asin": "B07KXBMYCW",
+                "related_products": "B086FKHTLZ, B082YG1L4B, B083NJRP1L, B0845LYKW2, B0832B8HFJ",
+                "sponsor_products": "true",
+                "title": "Samsung Galaxy A51 Review: The MOST Underrated Budget Phone?",
+                "profile_image_url": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/markspurrell_1660394141321_original._CR0,0,1080,1080_._FMjpg_.jpeg",
+                "profile_link": "/shop/markspurrell",
+                "public_name": "Mark Spurrell",
+                "creator_type": "Influencer",
+                "vendor_code": "markspurrell:shop",
+                "vendor_name": "Mark Spurrell",
+                "vendor_tracking_id": "onamzmarkspur-20",
+                "video_image_id": "61ErG-ts+VL",
+                "video_image_url": "https://m.media-amazon.com/images/I/61ErG-ts+VL._CR0,0,1280,675_SR580,306_.jpg",
+                "video_image_url_unchanged": "https://m.media-amazon.com/images/I/61ErG-ts+VL.jpg",
+                "video_image_width": "1280",
+                "video_image_height": "720",
+                "video_image_extension": "jpg",
+                "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/05e5ab1e-e146-4fd6-9b85-060ed8a36be0/default.jobtemplate.hls.m3u8",
+                "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/d8da9708-bf35-42c2-a364-e0ced510ffbd/videopreview.jobtemplate.mp4.342X192P_20HZ_350KBPS_VER_1_0.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4",
+                "video_mime_type": "application/x-mpegURL",
+                "duration": "4:15",
+                "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/79741c92-b63d-47d0-94cd-1e08ab05853f.vtt",
+                "type": "videos_for_related_products"
+            },
+            {
+                "id": "amzn1.vse.video.0da33481eb7748dcad45a9722bcea50e",
+                "product_asin": "B07KXBMYCW",
+                "parent_asin": "B07KXBMYCW",
+                "related_products": "B08XX4P7LB, B09R6FJWWS, B093WYVSX2, B09C6LMM28, B09VCTP7ZL",
+                "sponsor_products": "true",
+                "title": "Galaxy A52 5G vs Galaxy A53 5G - Which is Better?",
+                "profile_image_url": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/fishbeeproductions_1619606947332_original._CR0,0,599,599_._FMjpg_.jpeg",
+                "profile_link": "/shop/fishbeeproductions",
+                "public_name": "FishBee Productions",
+                "creator_type": "Influencer",
+                "vendor_code": "fishbeeproductions:shop",
+                "vendor_name": "FishBee Productions",
+                "vendor_tracking_id": "onamzbryanfis-20",
+                "video_image_id": "618R3pmelGL",
+                "video_image_url": "https://m.media-amazon.com/images/I/618R3pmelGL._CR0,0,1280,675_SR580,306_.jpg",
+                "video_image_url_unchanged": "https://m.media-amazon.com/images/I/618R3pmelGL.jpg",
+                "video_image_width": "1280",
+                "video_image_height": "720",
+                "video_image_extension": "jpg",
+                "video_url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/335bf2ec-6447-4688-8ebb-dde4825ca286/default.jobtemplate.hls.m3u8",
+                "video_previews": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/39e38a1a-a4d6-4237-9431-c7dd6c659c82/videopreview.jobtemplate.mp4.342X192P_20HZ_350KBPS_VER_1_0.mp4,342X192P_20HZ_350KBPS_VER_1_0,video/mp4",
+                "video_mime_type": "application/x-mpegURL",
+                "duration": "8:09",
+                "closed_captions": "en,https://m.media-amazon.com/images/S/vse-vms-closed-captions-artifact-us-east-1-prod/closedCaptions/414957dc-1b64-4727-8ea1-e07ff3bcadf1.vtt",
+                "type": "videos_for_related_products"
+            }
+        ],
+        "is_bundle": false,
+        "feature_bullets": [
+            "Unlocked for use on GSM networks only. DOES NOT WORK WITH CDMA CARRIERS like Sprint, Verizon, US Cellular, etc. NO WARRANTY.",
+            "Display: 6. Infinity-U Super AMOLED Display",
+            "Triple Action Camera: 25MP + 5MP + 8MP with F1.7, F2.2 wide Angle and F2.2 with Flash | 25 MP front camers with F2.0",
+            "Memory: 64GB Expandable up to 512GB, 4GB RAM",
+            "4000mAH lithium-ion battery with Type-C fast charging | 15W International Charger in the box"
+        ],
+        "feature_bullets_count": 5,
+        "feature_bullets_flat": "4000mAH lithium-ion battery with Type-C fast charging | 15W International Charger in the box. Memory: 64GB Expandable up to 512GB, 4GB RAM. Triple Action Camera: 25MP + 5MP + 8MP with F1.7, F2.2 wide Angle and F2.2 with Flash | 25 MP front camers with F2.0. Display: 6.4 Infinity-U Super AMOLED Display. Unlocked for use on GSM networks only. DOES NOT WORK WITH CDMA CARRIERS like Sprint, Verizon, US Cellular, etc. NO WARRANTY.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "value": "SAMSUNG"
+            },
+            {
+                "name": "Model Name",
+                "value": "A50"
+            },
+            {
+                "name": "Wireless Carrier",
+                "value": "Unlocked"
+            },
+            {
+                "name": "Operating System",
+                "value": "Android 9.0"
+            },
+            {
+                "name": "Cellular Technology",
+                "value": "2G"
+            },
+            {
+                "name": "Memory Storage Capacity",
+                "value": "64 GB"
+            },
+            {
+                "name": "Color",
+                "value": "Blue"
+            },
+            {
+                "name": "Screen Size",
+                "value": "6.4 Inches"
+            },
+            {
+                "name": "Wireless network technology",
+                "value": "GSM"
+            },
+            {
+                "name": "Scanner Resolution",
+                "value": "2340 x 1080"
+            }
+        ],
+        "top_reviews": [
+            {
+                "id": "R1EE4KPSU0W9YB",
+                "title": "How's it so cheap????",
+                "body": "There's alot to put here so a very brief summary... Touching the screen is smooth no lag with a great processor and RAM, screen there's nothing to say here best you can get for 1080p, face recognition is fast, like no lock screen fast, and finger is quick but it is in the screen so it's about 1s to unlock, the camera ARE YOU KIDDING ME.... BEST CAMERA IVE HAD IN AWHILE FRONT 25MP AND BACK25MP 13MP 5MP , downloaded Gcam and probably beats the iPhone 11 and 11pro, it is made of plastic but so beautiful, theres no more I can say if you want this phone just get it won't get anything for better in this range and maybe even up to 600$ and that's because the a70....Read more",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1EE4KPSU0W9YB/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B07KXBMYCW",
+                "rating": 5,
+                "date": {
+                    "raw": "Reviewed in the United States 🇺🇸 on November 5, 2019",
+                    "utc": "2019-11-05T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "taylor zimmermab",
+                    "link": "https://www.amazon.com/gp/profile/amzn1.account.AFJ7PX3SREHERZO3MG3P5SXO6T6Q/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AFJ7PX3SREHERZO3MG3P5SXO6T6Q"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "helpful_votes": 5,
+                "review_country": "us",
+                "is_global_review": false
+            },
+            {
+                "id": "R1A9KTY0AG088G",
+                "title": "Good phone",
+                "body": "I love this phone. The grip is perfect Its design is excellent The interface is great and the navigation inside is cool. The only thing that could be more excellent is the fingerprint reader under the screen which sometimes turns out to be very slow. Other than that, it's a good mid-range phone.Read more",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1A9KTY0AG088G/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B07KXBMYCW",
+                "rating": 4,
+                "date": {
+                    "raw": "Reviewed in the United States 🇺🇸 on February 12, 2020",
+                    "utc": "2020-02-12T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Jean Ben-Ledan",
+                    "link": "https://www.amazon.com/gp/profile/amzn1.account.AGWSV34RPJ3GAASENLGUGW2GODZQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AGWSV34RPJ3GAASENLGUGW2GODZQ",
+                    "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/0fc5447e-a8bd-44bd-baed-e7b5b2662d7b._CR62,0,375,375_SX48_.jpg"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "images": [
+                    {
+                        "link": "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
+                    },
+                    {
+                        "link": "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
+                    }
+                ],
+                "helpful_votes": 3,
+                "review_country": "us",
+                "is_global_review": false
+            },
+            {
+                "id": "R2OBETS542H2AN",
+                "title": "FINGER PRINT DOES NOT WORK",
+                "body": "I was initially told the finger print reader is slow and unreliable. That is an under statement. IT DOES NOT WORK. I've done everything. Increased the sensitivity. Put in 3 fingerprints of just my thumb. Used weird angles. I still get a NO MATCH everytime I try it. The phone does have a nice bright screen but I took it to the beach and just a little sand scratched the hell out of it. Overall, I switched over from an Honor 7x and I regret itRead more",
+                "rating": 3,
+                "date": {
+                    "raw": "Reviewed in the United States 🇺🇸 on July 16, 2019",
+                    "utc": "2019-07-16T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Dave Sims",
+                    "link": "https://www.amazon.com/gp/profile/amzn1.account.AGKOR5YHGRBJ4VLQBXJIHIRKNZAA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AGKOR5YHGRBJ4VLQBXJIHIRKNZAA"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "helpful_votes": 4,
+                "review_country": "us",
+                "is_global_review": false
+            },
+            {
+                "id": "R1R7MCM5LEB8O",
+                "title": "Great for the price",
+                "body": "I got the international version so 4Glte is limited where I'm at.Read more",
+                "rating": 4,
+                "date": {
+                    "raw": "Reviewed in the United States 🇺🇸 on January 11, 2020",
+                    "utc": "2020-01-11T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Demiahus Durham",
+                    "link": "https://www.amazon.com/gp/profile/amzn1.account.AEJTNEI2QXZJJCDAPTQBNOCZDZEQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AEJTNEI2QXZJJCDAPTQBNOCZDZEQ"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "review_country": "us",
+                "is_global_review": false
+            },
+            {
+                "id": "R3GPSIBK677MWE",
+                "title": "Nice phone",
+                "body": "Bought this for my 11 year old daughter to replace her ZTE Blaze Max that was no longer charging. This phone out beats her old phone in every aspect. We are on Cricket Wireless and it works great. Since she uses it to game it's hard for me to rate the battery life plus it's not my phone. She does not use fingerprint reader.Read more",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3GPSIBK677MWE/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B07KXBMYCW",
+                "rating": 5,
+                "date": {
+                    "raw": "Reviewed in the United States 🇺🇸 on August 15, 2019",
+                    "utc": "2019-08-15T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "ellaina knight",
+                    "link": "https://www.amazon.com/gp/profile/amzn1.account.AEDRT5BD6FY4JKM4KRW7GPAEP7OA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AEDRT5BD6FY4JKM4KRW7GPAEP7OA"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "review_country": "us",
+                "is_global_review": false
+            },
+            {
+                "id": "R3QJJSYDRNY3LS",
+                "title": "Great Performance for the price.",
+                "body": "Fingerprint works just fine for me. It's a great phone for the price.Read more",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3QJJSYDRNY3LS/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B07KXBMYCW",
+                "rating": 4,
+                "date": {
+                    "raw": "Reviewed in the United States 🇺🇸 on August 12, 2019",
+                    "utc": "2019-08-12T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Ebenezer Duah",
+                    "link": "https://www.amazon.com/gp/profile/amzn1.account.AFWAPRLPDJ66OP5FBBRO2KAA7IBQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AFWAPRLPDJ66OP5FBBRO2KAA7IBQ"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "review_country": "us",
+                "is_global_review": false
+            },
+            {
+                "id": "R3A8WP6BARCQYP",
+                "title": "Amazing High/Mid-End phone",
+                "body": "Great phone for $250. The cameras are all spiffy. More than enough space for things(especially with a MicroSD card). The sleekiness and durability are also a huge plus.Read more",
+                "rating": 5,
+                "date": {
+                    "raw": "Reviewed in the United States 🇺🇸 on December 18, 2019",
+                    "utc": "2019-12-18T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Azumarill",
+                    "link": "https://www.amazon.com/gp/profile/amzn1.account.AGCRDP7QJRZGAUXUZ2LFDNHQKBIQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AGCRDP7QJRZGAUXUZ2LFDNHQKBIQ",
+                    "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/c066edbc-b492-4b0a-96f8-c6c9ca83199f._CR18,0,364,364_SX48_.jpg"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "review_country": "us",
+                "is_global_review": false
+            },
+            {
+                "id": "RDSS663YQNEZW",
+                "title": "Satisfied",
+                "body": "Value moneyRead more",
+                "rating": 4,
+                "date": {
+                    "raw": "Reviewed in the United States 🇺🇸 on June 7, 2019",
+                    "utc": "2019-06-07T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Abuyacine",
+                    "link": "https://www.amazon.com/gp/profile/amzn1.account.AE4CVUBEZOW4PLVA4WFBCU2UGY4Q/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AE4CVUBEZOW4PLVA4WFBCU2UGY4Q"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "images": [
+                    {
+                        "link": "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
+                    }
+                ],
+                "helpful_votes": 8,
+                "review_country": "us",
+                "is_global_review": false
+            },
+            {
+                "id": "R3UX7GNSIQKFAM",
+                "title": "Masterpiece",
+                "body": "A silently launched masterpiece by Samsung. No Ads. No Pre-information. Fearing S10 sales? Or hurryingly released to beat Redmi Note 7? Anyways. Let us see the pros & cons: Pros: 1) Display: The best display in the market till date. It is a known fact (through internet sources) that Samsung manufactures display for iPhones, the world's costliest phones. So as usual, they stand superb in this Super AMOLED display with Full HD+. 2) Backup Beast: 4000 mAH battery will last: 3 days for light users; 2 days for moderate users; 1 day for heavy users. 3) Full Screen: Display is almost full. Just a small and perfectly placed camera in the middle - U Notch. I felt this is far better than abnormal camera placements in S10 series. 4) Fantastic Camera: In the light, whether the rear camera or front camera, both are excellent while producing 25 MP pics. See the sample shots at 3rd and 4th images of Lord Krishna. 5) Great Design: As usually, A series from Samsung always look very premium. And this too looks premium. 6) Screen Protection: After searching over the net, though this doesn't have Gorilla Glass, it does have Asahi's Dragon Trail glass, which is also rugged when comes to protection. 7) Charging: First time Samsung has provided C-Type charger, that too with a very faster charger (15W). I meant at this price point. 8) UI: Samsung's new One Touch UI is great. Very nice to customize. 9) Price: Dead cheap. Samsung has decided to be very aggressive in the market. At this price, one can blindly go for this. Cons: 1) Camera: In low lighting conditions, the cameras' quality is not very good. 2) Plastic Back: I think Samsung should have provided a glass-back or metal-back at this price point. They have provided a plastic back (polycarbonate). 3) Processor: Nowadays, for this price range, a high-end processor is expected. But Samsung never does this. Because it invests its money in the display. So this con is subjective. For display lovers, this is not a big con. But for speed lovers, this will be a big con. 4) Speaker: This is the biggest con in all the mobiles I have found. I don't know why. It is ONE & ONLY ONEPLUS, which provides users very high quality and loudest speakers in the industry; that too in a single speaker. I really don't know why companies don't learn from OnePlus. 5) Ineffective Fingerprint Sensor: I don't know why companies are trying to put fingerprint sensors inside the display. The outside hardware fingerprint sensor is FAR FAR BETTER THAN IN-DISPLAY FINGERPRINT SENSOR (even in look-wise). Even OnePlus 6T, which has such a high-end processor, fail to recognize and unlock quickly our fingerprints. So why did Samsung tried this? 6) Double Tap: Samsung should learn to provide Double Tap to turn off/on screen. We should rely only on the power button. Though this is not a big con for others, it is for me. Conclusion: For this price point, one can blindly go for this. It is very much worth. I feel in the corner of my heart, this phone beats S10+ also (by comparing prices I meant).Read more",
+                "rating": 5,
+                "date": {
+                    "raw": "Reviewed in India 🇮🇳 on March 5, 2019",
+                    "utc": "2019-03-05T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Govinda Dasa"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "helpful_votes": 1766,
+                "review_country": "in",
+                "is_global_review": true
+            },
+            {
+                "id": "R2EGKIJIGNDK76",
+                "title": "Finger scanner is very bad,not work 4g properly speed very slow",
+                "body": "Camera or display are good But finger lock not success does not work properly Network connectivity very badRead more",
+                "rating": 1,
+                "date": {
+                    "raw": "Reviewed in India 🇮🇳 on March 6, 2019",
+                    "utc": "2019-03-06T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "YASH",
+                    "image": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/e3eb0d6d-9b02-4397-ada5-f480fbc37da2._CR0,50.0,232,232_SX48_.jpg"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "helpful_votes": 225,
+                "review_country": "in",
+                "is_global_review": true
+            },
+            {
+                "id": "R13IWEY3UCFTIO",
+                "title": "Not expected from samsung",
+                "body": "Device heat too much during audio call or video callRead more",
+                "rating": 1,
+                "date": {
+                    "raw": "Reviewed in India 🇮🇳 on March 5, 2019",
+                    "utc": "2019-03-05T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Rakesh"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "helpful_votes": 199,
+                "review_country": "in",
+                "is_global_review": true
+            },
+            {
+                "id": "R32WCHLXLUV2C",
+                "title": "speed prosseser",
+                "body": "overall good but speed was not too good, processer was little creat a problem,otherwise excellent..every photo captured by selfie camera except bottle..Read more",
+                "rating": 1,
+                "date": {
+                    "raw": "Reviewed in India 🇮🇳 on March 8, 2019",
+                    "utc": "2019-03-08T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Dinkar Singh",
+                    "image": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/7cd5f28d-5027-4658-ba9a-cb15a9247367._CR83,0,333,333_SX48_.jpg"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "helpful_votes": 97,
+                "review_country": "in",
+                "is_global_review": true
+            },
+            {
+                "id": "R2T1XXIKKW4DTN",
+                "title": "Important notice to new phone byer",
+                "body": "Waste of money to buy Samsung Galaxy A50 and suggest everyone not to buy the phone. In display finger scanner doesn't work properly. But sound quality and amoled display are superb.Read more",
+                "rating": 1,
+                "date": {
+                    "raw": "Reviewed in India 🇮🇳 on March 10, 2019",
+                    "utc": "2019-03-10T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Reena Patel"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "helpful_votes": 95,
+                "review_country": "in",
+                "is_global_review": true
+            }
+        ],
+        "buybox_winner": {
+            "offer_id": "aYFAxEfYI+Cu4TqORDntQb1+DoIO7Lo+NFgo0pFeAPiCHW8Dl9HI6qqWVM2nw3yfFkBrhvMEElvG4ovNRYE3U2BeaF9Ur6zaswaMHu7sTJwjGdsEE5VdHmsWWwvwrIrAb8odtZsNj6foaKy69l1ENO6l7j+4KJ/N97e1BKbsIZqVne3w2eYfRtCeWXbR2M1Q",
+            "is_prime": false,
+            "is_amazon_fresh": false,
+            "condition": {
+                "is_new": true
+            },
+            "availability": {
+                "type": "in_stock",
+                "raw": "Only 1 left in stock - order soon.",
+                "dispatch_days": 1,
+                "stock_level": 1
+            },
+            "fulfillment": {
+                "type": "3p",
+                "standard_delivery": {
+                    "date": "October 27 - 31",
+                    "name": "FREE"
+                },
+                "fastest_delivery": {
+                    "date": "Thursday, October 27",
+                    "name": "Or fastest delivery Thursday, October 27. Order within 2 hrs 28 mins. Details"
+                },
+                "is_sold_by_amazon": false,
+                "is_fulfilled_by_amazon": false,
+                "is_fulfilled_by_third_party": true,
+                "is_sold_by_third_party": true,
+                "third_party_seller": {
+                    "name": "INTEGRON TECHNOLOGIES INC",
+                    "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A3IWU819C03265&asin=B07KXBMYCW&ref_=dp_merchant_link",
+                    "id": "A3IWU819C03265"
+                }
+            },
+            "price": {
+                "symbol": "$",
+                "value": 349.99,
+                "currency": "USD",
+                "raw": "$349.99"
+            },
+            "shipping": {
+                "raw": "FREE"
+            }
+        },
+        "specifications": [
+            {
+                "name": "Product Dimensions",
+                "value": "6.26 x 0.31 x 2.95 inches"
+            },
+            {
+                "name": "Item Weight",
+                "value": "5.9 ounces"
+            },
+            {
+                "name": "ASIN",
+                "value": "B07KXBMYCW"
+            },
+            {
+                "name": "Item model number",
+                "value": "SM-A505FZBDINS"
+            },
+            {
+                "name": "Batteries",
+                "value": "1 Lithium Polymer batteries required."
+            },
+            {
+                "name": "Customer Reviews",
+                "value": "4.1 out of 5 stars 3,087 ratings 4.1 out of 5 stars"
+            },
+            {
+                "name": "OS",
+                "value": "Android 9.0"
+            },
+            {
+                "name": "RAM",
+                "value": "4 GB"
+            },
+            {
+                "name": "Wireless communication technologies",
+                "value": "Cellular"
+            },
+            {
+                "name": "Display technology",
+                "value": "AMOLED"
+            },
+            {
+                "name": "Other display features",
+                "value": "Wireless"
+            },
+            {
+                "name": "Device interface - primary",
+                "value": "Touchscreen"
+            },
+            {
+                "name": "Scanner Resolution",
+                "value": "2340 x 1080"
+            },
+            {
+                "name": "Other camera features",
+                "value": "Front"
+            },
+            {
+                "name": "Form Factor",
+                "value": "Smartphone"
+            },
+            {
+                "name": "Colour",
+                "value": "Blue"
+            },
+            {
+                "name": "Included Components",
+                "value": "Phone, Charger"
+            },
+            {
+                "name": "Manufacturer",
+                "value": "Samsung"
+            },
+            {
+                "name": "Date First Available",
+                "value": "February 1, 2019"
+            },
+            {
+                "name": "Brand",
+                "value": "SAMSUNG"
+            },
+            {
+                "name": "Model Name",
+                "value": "A50"
+            },
+            {
+                "name": "Wireless Carrier",
+                "value": "Unlocked"
+            },
+            {
+                "name": "Operating System",
+                "value": "Android 9.0"
+            },
+            {
+                "name": "Cellular Technology",
+                "value": "2G"
+            },
+            {
+                "name": "Memory Storage Capacity",
+                "value": "64 GB"
+            },
+            {
+                "name": "Color",
+                "value": "Blue"
+            },
+            {
+                "name": "Screen Size",
+                "value": "6.4 Inches"
+            },
+            {
+                "name": "Wireless network technology",
+                "value": "GSM"
+            }
+        ],
+        "specifications_flat": "Wireless network technology: GSM. Screen Size: 6.4 Inches. Color: Blue. Memory Storage Capacity: 64 GB. Cellular Technology: 2G. Operating System: Android 9.0. Wireless Carrier: Unlocked. Model Name: A50. Brand: SAMSUNG. Date First Available: February 1, 2019. Manufacturer: Samsung. Included Components: Phone, Charger. Colour: Blue. Form Factor: Smartphone. Other camera features: Front. Scanner Resolution: 2340 x 1080. Device interface - primary: Touchscreen. Other display features: Wireless. Display technology: AMOLED. Wireless communication technologies: Cellular. RAM: 4 GB. OS: Android 9.0. Customer Reviews: 4.1 out of 5 stars 3,087 ratings 4.1 out of 5 stars. Batteries: 1 Lithium Polymer batteries required. Item model number: SM-A505FZBDINS. ASIN: B07KXBMYCW. Item Weight: 5.9 ounces. Product Dimensions: 6.26 x 0.31 x 2.95 inches.",
+        "color": "Blue",
+        "manufacturer": "Samsung",
+        "weight": "5.9 ounces",
+        "first_available": {
+            "raw": "February 1, 2019",
+            "utc": "2019-02-01T00:00:00.000Z"
+        },
+        "dimensions": "6.26 x 0.31 x 2.95 inches",
+        "model_number": "SM-A505FZBDINS"
+    },
+    "climate_pledge_friendly": {
+        "text": "EPEAT",
+        "image": "https://m.media-amazon.com/images/I/111pigi1ylL.png"
+    },
+    "brand_store": {
+        "id": "F50AFABA-4CDE-4A95-84D0-CA4C61819FEB",
+        "link": "https://www.amazon.com/stores/Samsung%C2%AE/page/F50AFABA-4CDE-4A95-84D0-CA4C61819FEB"
+    },
+    "frequently_bought_together": {
+        "total_price": {
+            "symbol": "$",
+            "value": 368.28,
+            "currency": "USD",
+            "raw": "$368.28"
+        },
+        "products": [
+            {
+                "asin": "B07KXBMYCW",
+                "title": "Samsung Galaxy A50 SM-A505G 64GB 4GB RAM 25 MP 6.4 Factory Unlocked- Black (Renewed)",
+                "link": "https://www.amazon.com/dp/B07KXBMYCW",
+                "image": "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
+            },
+            {
+                "asin": "B07QMMD35W",
+                "title": "OTTERBOX COMMUTER LITE Case for Samsung Galaxy A50 - Retail Packaging - BLACK",
+                "link": "https://www.amazon.com/dp/B07QMMD35W",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/61Ru3Kq6EqL._AC_UL116_SR116,116_.jpg",
+                "price": {
+                    "symbol": "$",
+                    "value": 11.34,
+                    "currency": "USD",
+                    "raw": "$11.34"
+                }
+            },
+            {
+                "asin": "B07PDDWPGP",
+                "title": "[3-PACK]-Mr.Shield Designed For Samsung Galaxy A50 [Tempered Glass] Screen Protector with Lifetime Replacement",
+                "link": "https://www.amazon.com/dp/B07PDDWPGP",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/61FGgvHhq6L._AC_UL116_SR116,116_.jpg",
+                "price": {
+                    "symbol": "$",
+                    "value": 6.95,
+                    "currency": "USD",
+                    "raw": "$6.95"
+                }
+            }
+        ]
+    },
+    "compare_with_similar": [
+        {
+            "asin": "B07KXBMYCW",
+            "image": "https://m.media-amazon.com/images/I/710Z2j5FMtL._AC_SS450_.jpg",
+            "title": "Samsung Galaxy A50 A505G 64GB Duos GSM Unlocked Phone w/Triple 25MP Camera - (International Version, No Warranty) - Blue",
+            "rating": 4,
+            "ratings_total": 3087,
+            "price": {
+                "symbol": "$",
+                "value": 349.99,
+                "currency": "USD",
+                "raw": "$349.99"
+            },
+            "link": "https://www.amazon.com/dp/B07KXBMYCW"
+        },
+        {
+            "asin": "B07RL93F7T",
+            "image": "https://m.media-amazon.com/images/I/71cWAMqNuLL._AC_SS450_.jpg",
+            "title": "Samsung Galaxy A50 SM-A505G 64GB 4GB RAM 25 MP 6.4 Factory Unlocked- Black (Renewed)",
+            "rating": 4,
+            "ratings_total": 762,
+            "price": {
+                "symbol": "$",
+                "value": 135.96,
+                "currency": "USD",
+                "raw": "$135.96"
+            },
+            "link": "https://www.amazon.com/dp/B07RL93F7T"
+        },
+        {
+            "asin": "B08B8Y5R4Y",
+            "image": "https://m.media-amazon.com/images/I/717oyKAJ1cL._AC_SS450_.jpg",
+            "title": "Samsung Galaxy S20 5G, 128GB, Cosmic Gray - Unlocked (Renewed)",
+            "rating": 4.5,
+            "ratings_total": 3164,
+            "price": {
+                "symbol": "$",
+                "value": 264.5,
+                "currency": "USD",
+                "raw": "$264.50"
+            },
+            "link": "https://www.amazon.com/dp/B08B8Y5R4Y"
+        },
+        {
+            "asin": "B08L9MY937",
+            "image": "https://m.media-amazon.com/images/I/61B8AZrmgjL._AC_SS450_.jpg",
+            "title": "Samsung - Galaxy A71 A716U 5G Fully Unlocked 128GB - Prism Cube Black (Renewed)",
+            "rating": 4,
+            "ratings_total": 1045,
+            "price": {
+                "symbol": "$",
+                "value": 213,
+                "currency": "USD",
+                "raw": "$213.00"
+            },
+            "link": "https://www.amazon.com/dp/B08L9MY937"
+        }
+    ],
+    "sponsored_products": [
+        {
+            "title": "SAMSUNG Galaxy S20 FE 5G Cell Phone, Factory Unlocked Android Smartphone, 128GB, Pro Grade Camera, 30X Space Zoom, Night Mode, US Version, Cloud Navy",
+            "asin": "B08FYTSXGQ",
+            "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo1NzcwMDg0MjE3ODEyNjY2OjE2NjY2MjE4ODA6c3BfZGV0YWlsOjIwMDA4MTY3NDQ5Nzg5ODo6Ojo&url=%2Fdp%2FB08FYTSXGQ%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB08FYTSXGQ%26pd_rd_w%3D9MpYZ%26content-id%3Damzn1.sym.46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_p%3D46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_r%3DR6S5B73Z0H1V3B4SQQN0%26pd_rd_wg%3DrKktw%26pd_rd_r%3D7007f4cc-0123-4cba-982f-af3a32569193%26s%3Dwireless%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/41UuyU7HsPL._AC_SR160,160_.jpg",
+            "rating": 4.5,
+            "ratings_total": 12758,
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 524.99,
+                "currency": "USD",
+                "raw": "$524.99"
+            }
+        },
+        {
+            "title": "Samsung Galaxy A32 5G (64GB, 4GB) 6.5 90Hz Display,48MP Quad Camera, All Day Battery, GSM (T-Mobile Unlocked for AT&T, Metro, Global) 4G LTE A326U (Awesome Black)",
+            "asin": "B09B19KMZY",
+            "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo1NzcwMDg0MjE3ODEyNjY2OjE2NjY2MjE4ODA6c3BfZGV0YWlsOjIwMDA4OTM0NDYxMzY5ODo6Ojo&url=%2Fdp%2FB09B19KMZY%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB09B19KMZY%26pd_rd_w%3D9MpYZ%26content-id%3Damzn1.sym.46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_p%3D46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_r%3DR6S5B73Z0H1V3B4SQQN0%26pd_rd_wg%3DrKktw%26pd_rd_r%3D7007f4cc-0123-4cba-982f-af3a32569193%26s%3Dwireless%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/51KV-smz-BL._AC_SR160,160_.jpg",
+            "rating": 3.5,
+            "ratings_total": 18,
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 249.72,
+                "currency": "USD",
+                "raw": "$249.72"
+            }
+        },
+        {
+            "title": "SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android Smartphone, 256GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long Battery Life, Fast 4nm Processor, US Version, Burgundy",
+            "asin": "B09MVZY521",
+            "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo1NzcwMDg0MjE3ODEyNjY2OjE2NjY2MjE4ODA6c3BfZGV0YWlsOjIwMDA4MTY2MTkxNTI5ODo6Ojo&url=%2Fdp%2FB09MVZY521%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB09MVZY521%26pd_rd_w%3D9MpYZ%26content-id%3Damzn1.sym.46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_p%3D46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_r%3DR6S5B73Z0H1V3B4SQQN0%26pd_rd_wg%3DrKktw%26pd_rd_r%3D7007f4cc-0123-4cba-982f-af3a32569193%26s%3Dwireless%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/41oK7A3ihQL._AC_SR160,160_.jpg",
+            "rating": 4.5,
+            "ratings_total": 303,
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 1099.99,
+                "currency": "USD",
+                "raw": "$1,099.99"
+            }
+        },
+        {
+            "title": "Samsung Galaxy S10e, 256GB, Prism Blue - Unlocked (Renewed)",
+            "asin": "B07PDN4MF2",
+            "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo1NzcwMDg0MjE3ODEyNjY2OjE2NjY2MjE4ODA6c3BfZGV0YWlsOjIwMDA5NjkyMjM1MjE5ODo6Ojo&url=%2Fdp%2FB07PDN4MF2%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB07PDN4MF2%26pd_rd_w%3D9MpYZ%26content-id%3Damzn1.sym.46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_p%3D46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_r%3DR6S5B73Z0H1V3B4SQQN0%26pd_rd_wg%3DrKktw%26pd_rd_r%3D7007f4cc-0123-4cba-982f-af3a32569193%26s%3Dwireless%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw%26smid%3DAESX3141EPI7X",
+            "image": "https://m.media-amazon.com/images/I/31ed1MgGj2L._AC_SR160,160_.jpg",
+            "rating": 4.5,
+            "ratings_total": 9937,
+            "price": {
+                "symbol": "$",
+                "value": 209.99,
+                "currency": "USD",
+                "raw": "$209.99"
+            }
+        },
+        {
+            "title": "Samsung Galaxy S20 5G, 128GB, Cosmic Gray - Unlocked (Renewed)",
+            "asin": "B08B8Y5R4Y",
+            "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo1NzcwMDg0MjE3ODEyNjY2OjE2NjY2MjE4ODA6c3BfZGV0YWlsOjIwMDA5NjkyMjM1Mjk5ODo6Ojo&url=%2Fdp%2FB08B8Y5R4Y%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB08B8Y5R4Y%26pd_rd_w%3D9MpYZ%26content-id%3Damzn1.sym.46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_p%3D46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_r%3DR6S5B73Z0H1V3B4SQQN0%26pd_rd_wg%3DrKktw%26pd_rd_r%3D7007f4cc-0123-4cba-982f-af3a32569193%26s%3Dwireless%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw%26smid%3DAESX3141EPI7X",
+            "image": "https://m.media-amazon.com/images/I/417pulPoAsL._AC_SR160,160_.jpg",
+            "rating": 4.5,
+            "ratings_total": 3161,
+            "price": {
+                "symbol": "$",
+                "value": 264.5,
+                "currency": "USD",
+                "raw": "$264.50"
+            }
+        },
+        {
+            "title": "Samsung Galaxy A03S 4G LTE (NOT 5G) 6.5 HD+ Triple Camera 5000mAh Battery, Dual Sim GSM Unlocked Global 4G Volte (NOT VERIZON/Boost) International Model A037M/DS (Black,32GB)",
+            "asin": "B09FD6ZBTL",
+            "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo1NzcwMDg0MjE3ODEyNjY2OjE2NjY2MjE4ODA6c3BfZGV0YWlsOjIwMDA3ODQ0NDkxNDc5ODo6Ojo&url=%2Fdp%2FB09FD6ZBTL%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB09FD6ZBTL%26pd_rd_w%3D9MpYZ%26content-id%3Damzn1.sym.46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_p%3D46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_r%3DR6S5B73Z0H1V3B4SQQN0%26pd_rd_wg%3DrKktw%26pd_rd_r%3D7007f4cc-0123-4cba-982f-af3a32569193%26s%3Dwireless%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/31PkCKC80ML._AC_SR160,160_.jpg",
+            "rating": 4.5,
+            "ratings_total": 78,
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 135,
+                "currency": "USD",
+                "raw": "$135.00"
+            }
+        },
+        {
+            "title": "Samsung Galaxy S10, 128GB, Prism Black - Unlocked (Renewed)",
+            "asin": "B07PFL39NH",
+            "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo1NzcwMDg0MjE3ODEyNjY2OjE2NjY2MjE4ODA6c3BfZGV0YWlsOjIwMDA5NjkyMjM1Mzg5ODo6Ojo&url=%2Fdp%2FB07PFL39NH%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB07PFL39NH%26pd_rd_w%3D9MpYZ%26content-id%3Damzn1.sym.46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_p%3D46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_r%3DR6S5B73Z0H1V3B4SQQN0%26pd_rd_wg%3DrKktw%26pd_rd_r%3D7007f4cc-0123-4cba-982f-af3a32569193%26s%3Dwireless%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw%26smid%3DAESX3141EPI7X",
+            "image": "https://m.media-amazon.com/images/I/41OWroX071L._AC_SR160,160_.jpg",
+            "rating": 4.5,
+            "ratings_total": 12313,
+            "price": {
+                "symbol": "$",
+                "value": 174,
+                "currency": "USD",
+                "raw": "$174.00"
+            }
+        },
+        {
+            "title": "TCL 30XL |2022| Unlocked Cell Phone, 6.82 inch Vast Display, 5000mAh Battery, Android 12 Smartphone, 50MP AI Quad-Camera, 6GB RAM + 64GB ROM, US Version Mobile Phone, Dual Speaker Phone, Night Mist",
+            "asin": "B0B11L6YNN",
+            "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo1NzcwMDg0MjE3ODEyNjY2OjE2NjY2MjE4ODA6c3BfZGV0YWlsOjIwMDA5NDk3MjcwNTQ5ODo6Ojo&url=%2Fdp%2FB0B11L6YNN%2Fref%3Dsspa_dk_detail_7%3Fpsc%3D1%26pd_rd_i%3DB0B11L6YNN%26pd_rd_w%3D9MpYZ%26content-id%3Damzn1.sym.46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_p%3D46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_r%3DR6S5B73Z0H1V3B4SQQN0%26pd_rd_wg%3DrKktw%26pd_rd_r%3D7007f4cc-0123-4cba-982f-af3a32569193%26s%3Dwireless%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/41Xfu1YsdJL._AC_SR160,160_.jpg",
+            "rating": 4,
+            "ratings_total": 351,
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 179.99,
+                "currency": "USD",
+                "raw": "$179.99"
+            }
+        },
+        {
+            "title": "Total by Verizon Samsung Galaxy A23 5G, 128GB, Black - Prepaid Smartphone (Locked) (S236DL)",
+            "asin": "B0BBY4V1W2",
+            "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo1NzcwMDg0MjE3ODEyNjY2OjE2NjY2MjE4ODA6c3BfZGV0YWlsOjIwMDA5MTM4MDY1Mjk5ODo6Ojo&url=%2Fdp%2FB0BBY4V1W2%2Fref%3Dsspa_dk_detail_8%3Fpsc%3D1%26pd_rd_i%3DB0BBY4V1W2%26pd_rd_w%3D9MpYZ%26content-id%3Damzn1.sym.46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_p%3D46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_r%3DR6S5B73Z0H1V3B4SQQN0%26pd_rd_wg%3DrKktw%26pd_rd_r%3D7007f4cc-0123-4cba-982f-af3a32569193%26s%3Dwireless%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/51LvKm3hIrL._AC_SR160,160_.jpg",
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 199.99,
+                "currency": "USD",
+                "raw": "$199.99"
+            }
+        },
+        {
+            "title": "Tracfone Samsung Galaxy A42 5G, 128GB, Black - Prepaid Smartphone (Locked)",
+            "asin": "B09CLMJX5Y",
+            "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo1NzcwMDg0MjE3ODEyNjY2OjE2NjY2MjE4ODA6c3BfZGV0YWlsOjIwMDA4NjUxNDUzNDE5ODo6Ojo&url=%2Fdp%2FB09CLMJX5Y%2Fref%3Dsspa_dk_detail_9%3Fpsc%3D1%26pd_rd_i%3DB09CLMJX5Y%26pd_rd_w%3D9MpYZ%26content-id%3Damzn1.sym.46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_p%3D46bad5f6-1f0a-4167-9a8b-c8a82fa48a54%26pf_rd_r%3DR6S5B73Z0H1V3B4SQQN0%26pd_rd_wg%3DrKktw%26pd_rd_r%3D7007f4cc-0123-4cba-982f-af3a32569193%26s%3Dwireless%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/41XCaTIQIvL._AC_SR160,160_.jpg",
+            "rating": 4.5,
+            "ratings_total": 37,
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 249.99,
+                "currency": "USD",
+                "raw": "$249.99"
+            }
+        }
+    ]
+}
+
