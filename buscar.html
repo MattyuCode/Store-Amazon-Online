@@ -90,81 +90,89 @@
     <div class="admin">
         <div class="container-fluidddd mt-5 text-center white-text wow fadeInUp">
             <div class="row listadoAdmins pt-5">
-                <div class="spinner-border mt-5 d-none" role="status">
+                <!-- <div class="spinner-border mt-5 d-none" role="status">
                     <span class="sr-only">Loading...</span>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
 
 
     <template id="templateAdmin">
-        <div class="col-lg-3 col-md-6 col-12  mb-4 animated fadeIn">
-            <div class="card">
-                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.webp"
-                    alt="Card image cap">
-                <div class="view overlay">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
+        <div class="container details mt-5">
+            <div class="row kio border p-3">
+                <div class="col-md-3">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" class="img-fluid" alt="">
                 </div>
-                <div class="card-body">
-                    <h4 class="card-title text-dark name"></h4>
-                    <h4 class="card-title text-dark apellido"></h4>
-                    <hr>
-                    <!-- <div class="row">
-                        <div class="col-md-3">
-                            <p class="card-text">Edad: <br> <span class="h5 edad"></span></p>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>Nombres: <strong class="name mb-3">Franklin Kluibert</strong></h5>
                         </div>
-                        <div class="col-md-5">
-                            <p class="card-text">Genero:<br> <span class="h5 genero"></span></p>
+                        <div class="col-md-6">
+                            <h5>Apellidos: <strong class="apellido mb-3">Ordoñez Nolasco</strong></h5>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h5 class="card-text">Edad: <strong class="edad">25 </strong> Años</h5>
+                        </div>
+                        <div class="col-md-3">
+                            <h5 class="card-text">Genero: <strong class="genero">Masculino </strong></h5>
+                        </div>
+                        <div class="col-md-2">
+                            <h5 class="card-text">Casado: <strong class="casado">Si </strong></h5>
                         </div>
                         <div class="col-md-4">
-                            <p class="card-text">Casado: <br> <span class="h5 casado"></span></p>
+                            <h5 class="card-text">Telefono: <strong class="telephone">+502 3293 1505 </strong></h5>
                         </div>
                     </div>
-                    <br>
-
+                    <hr>
                     <div class="row">
-                        <div class="col-md-12">
-                            <h1 class="card-text">Email: <strong class="email"></strong></h1>
+                        <div class="col-md-6">
+                            <h5 class="card-text">Email: <strong class="email">fordonezn@miumg.edu.gt</strong></h5>
                         </div>
-                    </div> -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal"
-                        data-target=".bd-example-modal-lg">Ver Datos completos</button>
+                        <div class="col-md-6">
+                            <h5 class="card-text">Dirección: <strong class="address">San Pedro Necta, Guatemala</strong>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <h5 class="card-text">Fecha de Nacimiento: <strong
+                                    class="fechaNaciminento">29-11-1997</strong>
+                            </h5>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>
-
     </template>
 
-        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3 class="modal-title" id="exampleModalLabel">Datos de la persona</h3>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                       <h1 class="jajaja"></h1>
-                    </div>
-                    <div class="modal-footer d-flex justify-content-center">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
 
-                    </div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Datos de la persona</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h1 class="jajaja"></h1>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
+    </div>
 
 
 

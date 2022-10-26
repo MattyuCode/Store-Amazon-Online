@@ -55,7 +55,7 @@
                         <div class="dropdown-menu dropdown-menu-right dropdown-default"
                             aria-labelledby="navbarDropdownMenuLink-333">
                             <form class="formAsin pt-3">
-                                &nbsp;&nbsp; <strong class="text-danger"> ASIN</strong>
+                                &nbsp;&nbsp; <strong class="letrasValid"> ASIN</strong>
                                 <div class="input-group">
                                     <input type="search" class="form-control inputAsin" placeholder="Buscar por ASIN"
                                         aria-label="" aria-describedby="basic-addon1">
@@ -67,7 +67,7 @@
                             </form>
                             <hr>
                             <form class="formURL">
-                                &nbsp;&nbsp; <strong class="text-danger"> URL</strong>
+                                &nbsp;&nbsp; <strong class="letraURL"> URL</strong>
                                 <div class="input-group">
                                     <input type="search" class="form-control inputURL"
                                         placeholder="Buscar por URL del producto" aria-label=""
@@ -109,10 +109,10 @@
                 <div class="spinner-border mt-5 d-none" role="status">
                     <span class="sr-only">Loading...</span>
                 </div>
+
                 <div class="spinner d-none">
                     <div class="loader"><span>{</span><span>}</span></div>
                 </div>
-
             </div>
         </div>
     </main>
@@ -130,23 +130,172 @@
                 </div>
                 <div class="card-body">
                     <h4 class="card-title">Card title</h4>
-                    <span class="badge badge-pill badge-success">Success</span>
+                    <span class="badge badge-pill badge-success"></span>
                     <hr>
                     <div class="row">
                         <div class="col-md-6">
                             <h3 class="card-text ">Lista de precio <span class="lista"></span></h3>
                         </div>
                         <div class="col-md-6">
-                            <h3 class="card-text ">Precio Original USD <span class="precioOrig h5"></span></h3>
+                            <h3 class="card-text ">Precio Original <br> USD <span class="precioOrig h5"></span></h3>
                         </div>
                     </div>
                     <br>
 
                     <h4>Precio en GTQ: <span class="totals"></span></h4>
-                    <a href="#" target="_blank" type="button" class="btn btn-info btn-md">Ver tedalles</a>
+                    <a href="#" target="_blank" type="button" class="btn btn-info btn-md vieww">Ver tedalles</a>
                 </div>
             </div>
         </div>
+    </template>
+
+    <!-- PARA VER DETALLES DE LOS PRODUCTOS -->
+
+    <template id="templateAsin">
+        <div class="container mt-5">
+            <div class="row border p-3">
+                <div class="col-md-4">
+                    <img src="https://m.media-amazon.com/images/I/710Z2j5FMtL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/61BjDE1KvCL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/51xV6o+0+FL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71hihanKlEL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71QZufGJE+L._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/41MSIwWDlNL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/41ydGU1HeWL._AC_SL1499_.jpg,https://m.media-amazon.com/images/I/71c0n60siAL._AC_SL1500_.jpg"" class="
+                        img-fluid" alt="">
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h5 class=" mb-3"><strong class="title"> Samsung Galaxy A50 A505G 64GB Duos GSM Unlocked
+                                    Phone w/Triple
+                                    25MP Camera - (International Version, No Warranty) - Blue</strong> </h5>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6 sub_title"><strong style="text-decoration: none;
+                            color: #007185;"><a class="text" href="#" target="_blank" rel="noopener noreferrer">Visit
+                                    the SAMSUNG Store</a></strong> </div>
+                        <div class="col-md-6 ">
+                            <span class="badge badge-pill badge-success">Only 1 left in stock - order soon.</span>
+
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="card-text currency">Precio en USD: $ <strong class="price">349.99 </strong>
+                                </h5>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="card-text">Precio en GQT: <strong class="GT">Q 10,950.00 </strong></h5>
+                            </div>
+
+                            <div class="col mt-3">
+                                <h5 class="card-text">Marca: <strong class="brand">SAMSUNG </strong></h5>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row datosCompletos">
+                            <div class="container mt-3">
+                                <table id="productDetails_techSpec_section_2" class="a-keyvalue prodDetTable table"
+                                    role="presentation">
+                                    <tbody class="listadbody">
+                                        <tr class="addtr">
+                                            <th
+                                                class="a-color-secondary a-size-base prodDetSectionEntry attributesname">
+                                                Brand </th>
+                                            <td class="a-size-base prodDetAttrValue attributesvalue">SAMSUNG </td>
+                                        </tr>
+                                        <!-- <tr>
+                                        <th class="a-color-secondary a-size-base prodDetSectionEntry name"> Modelo </th>
+                                        <td class="a-size-base prodDetAttrValue value">
+                                            A50 </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="a-color-secondary a-size-base prodDetSectionEntry name"> Wireless Carrier
+                                        </th>
+                                        <td class="a-size-base prodDetAttrValue value">
+                                            Unlocked </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="a-color-secondary a-size-base prodDetSectionEntry"> Operating System</th>
+                                        <td class="a-size-base prodDetAttrValue">
+                                            Android 9.0 </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="a-color-secondary a-size-base prodDetSectionEntry"> Cellular Technology
+                                        </th>
+                                        <td class="a-size-base prodDetAttrValue">
+                                            2G </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="a-color-secondary a-size-base prodDetSectionEntry"> Memory Storage
+                                            Capacity
+                                        </th>
+                                        <td class="a-size-base prodDetAttrValue">
+                                            64 GB </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="a-color-secondary a-size-base prodDetSectionEntry"> Color
+                                        </th>
+                                        <td class="a-size-base prodDetAttrValue">
+                                            Blue</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="a-color-secondary a-size-base prodDetSectionEntry">Screen Size </th>
+                                        <td class="a-size-base prodDetAttrValue">
+                                            6.4 Inches </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="a-color-secondary a-size-base prodDetSectionEntry"> Wireless network
+                                            technology </th>
+                                        <td class="a-size-base prodDetAttrValue">
+                                            GSM</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="a-color-secondary a-size-base prodDetSectionEntry"> Scanner Resolution
+                                        </th>
+                                        <td class="a-size-base prodDetAttrValue">
+                                            2340 x 1080. </td>
+                                    </tr>
+     -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <span class="card-text description">
+                                    The Samsung galaxy A50 is a complete device that provides for an onscreen
+                                    fingerprint sensor
+                                    along with the 6.4-inch (16.21 centimeters) super AMOLED - infinity u cut display,
+                                    FHD+
+                                    resolution (2340 x 1080), 404 ppi with 16m colors and triple camera setup - 16mp
+                                    (f1.9)+ 5mp
+                                    (2.2) wide-angle camera + 5mp (2.2) with flash and 25mp (f2.0) front-facing camera.
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-top: 150px;">
+                            <a href="#" target="_blank" type="button" class="btn btn-outline-info"><i
+                                    class="fas fa-eye" style="font-size: 20px;
+                        "></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <span class="feature_bullets_flat">
+                            4000mAH lithium-ion battery with Type-C fast charging | 15W International Charger in the
+                            box.
+                            Memory: 64GB Expandable up to 512GB, 4GB RAM. Triple Action Camera: 25MP + 5MP + 8MP with
+                            F1.7, F2.2
+                            wide Angle and F2.2 with Flash | 25 MP front camers with F2.0. Display: 6.4 Infinity-U Super
+                            AMOLED
+                            Display. Unlocked for use on GSM networks only. DOES NOT WORK WITH CDMA CARRIERS like
+                            Sprint,
+                            Verizon, US Cellular, etc. NO WARRANTY.
+                        </span>
+                    </div>
+                </div>
+            </div>
     </template>
 
     <script src="js/app.js"></script>

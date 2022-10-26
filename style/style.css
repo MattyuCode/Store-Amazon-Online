@@ -232,7 +232,49 @@ h3 {
     font-size: 14px;
 }
 
-.formAsin, .formURL{
- padding: 0 1rem 0 1rem;
+.formAsin,
+.formURL {
+    padding: 0 1rem 0 1rem;
+}
 
+
+.details {
+    margin-bottom: 50px;
+}
+
+
+.details .img-fluid {
+    max-width: 110%;
+    height: auto;
+}
+
+.details .col-md-9{
+    padding: 30px;
+}
+
+.kio{
+    border-radius: 10px;
+    background: #232F3E; 
+}
+
+.datosCompletos .table th{
+    background: rgb(215, 215, 215);
+}
+
+.letrasValid,
+.letraURL{
+    color: #232F3E; ;
+}
+
+.letrasValid.verde{
+    color: rgb(5, 166, 5);
+}
+.letrasValid.active{
+    color: red;
+}
+.letraURL.verde{
+    color: rgb(5, 166, 5);
+}
+.letraURL.active{
+    color: red;
 }
